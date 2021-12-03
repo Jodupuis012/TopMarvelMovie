@@ -1,0 +1,60 @@
+nav {
+    text-align: center;
+  }
+  .btn {
+    display: inline-block;
+    background-color: rgb(245, 109, 193);
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .btn>ul {
+    list-style: none;
+    padding: 0px;
+  }
+  .btn>ul>li:hover {
+    background-color:green;
+  }
+  
+  
+  .contenu {
+    background-color: white;
+    list-style-type:lower-roman;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  
+  .btn:hover {
+    background-color:rgb(240, 162, 175);
+  }
+  
+  
+  .btn ul {
+    display: none;
+    position:absolute;
+    background-color:rgb(240, 162, 175);
+    border-radius: 5px;
+  }
+  
+  .btn ul>li{
+    padding: 30px;
+  }
+  
+  .btn:hover ul {
+    display: block;
+  }
+  
+  td+td+td {
+    background-color: orange;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  
+  iframe {
+    width: 560px;
+    height: 315px;
+  }
